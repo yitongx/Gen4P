@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+ckpt/
+outputs/
+scripts/inputs/
+.vscode/
+ruff.toml
+.ruff_cache
+hf/

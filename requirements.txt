@@ -1,0 +1,32 @@
+# Python 3.10.14. The CUDA 12.6 PyTorch wheel is hosted on this index.
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.10.0+cu126
+
+# Shared Wan encoder, DVD/Gen4P LoRA, and checkpoint/tokenizer loading.
+diffusers==0.37.1
+transformers==5.5.3
+tokenizers==0.22.2
+peft==0.18.1
+safetensors==0.7.0
+huggingface-hub==1.10.1
+accelerate==1.12.0
+sentencepiece==0.2.1
+protobuf==6.32.0
+ftfy==6.3.1
+
+# Video/image I/O, numerical evaluation, and depth/displacement visualization.
+numpy==2.2.6
+scipy==1.15.3
+evo==1.34.3
+Pillow==11.3.0
+opencv-python-headless==4.13.0.92
+imageio==2.37.2
+imageio-ffmpeg==0.6.0
+matplotlib==3.10.8
+tqdm==4.67.3
+
+# Live viewer and RRD exports.
+viser==1.1.1
+rerun-sdk==0.31.4
+
+# flash-attn is optional and must be built separately; see README.
